@@ -1,4 +1,7 @@
 # final-fabricio
+VIDEO DE DEMONSTAÇÃO:
+
+https://youtu.be/_f2JOYnxzVk
 ---
 
 # Começando com Create React App e uma API em Node.js
@@ -72,6 +75,11 @@ Essas seções foram movidas para as respectivas páginas da documentação do C
 - Configuração Avançada: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 - Implantação: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 - `npm run build` falha ao minificar: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+VIDEO DE DEMONSTAÇÃO:
+
+https://youtu.be/_f2JOYnxzVk
 
 ---
 
