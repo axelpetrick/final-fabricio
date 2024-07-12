@@ -1,16 +1,19 @@
 # final-fabricio
+---
 
-# Começando com Create React App
+# Começando com Create React App e uma API em Node.js
 
-Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
+Este projeto inclui um frontend React inicializado com [Create React App](https://github.com/facebook/create-react-app) e uma API em Node.js.
 
-## Scripts Disponíveis
+## Frontend React
 
-No diretório do projeto, você pode executar:
+### Scripts Disponíveis
+
+No diretório do projeto React, você pode executar:
 
 ### `npm start`
 
-Roda o aplicativo no modo de desenvolvimento.\
+Roda o aplicativo React no modo de desenvolvimento.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
 
 A página irá recarregar automaticamente quando você fizer alterações.\
@@ -23,7 +26,7 @@ Veja a seção sobre [execução de testes](https://facebook.github.io/create-re
 
 ### `npm run build`
 
-Compila o aplicativo para produção na pasta `build`.\
+Compila o aplicativo React para produção na pasta `build`.\
 Ele agrupa corretamente o React no modo de produção e otimiza a compilação para obter o melhor desempenho.
 
 A compilação é minificada e os nomes dos arquivos incluem os hashes.\
@@ -31,43 +34,47 @@ Seu aplicativo está pronto para ser implantado!
 
 Veja a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
-### `npm run eject`
+## API em Node.js
 
-**Nota: esta é uma operação unilateral. Uma vez que você `eject`, não pode voltar atrás!**
+### Executando a API
 
-Se você não estiver satisfeito com a ferramenta de compilação e escolhas de configuração, você pode `eject` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
+Para executar a API em Node.js:
 
-Em vez disso, ele copiará todos os arquivos de configuração e dependências transitivas (webpack, Babel, ESLint, etc.) diretamente para o seu projeto, para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto, você está por conta própria.
+1. **Instale as dependências**: No diretório da API, execute o comando:
 
-Você não precisa usar `eject`. O conjunto de recursos curados é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar este recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto.
+   ```bash
+   cd caminho/para/api-axel
+   npm install
+   ```
+
+2. **Inicie o servidor**: Após a instalação das dependências, você pode iniciar o servidor da API com o comando:
+
+   ```bash
+   npm start
+   ```
+
+   O servidor começará a ser executado na porta padrão (geralmente 3002).
+
+### Documentação da API
+
+Para aprender mais sobre como utilizar a API, consulte a documentação interna do código ou os arquivos README e doc fornecidos com o projeto.
 
 ## Saiba Mais
 
-Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
+Você pode aprender mais na [documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started) e explorar a [documentação do React](https://reactjs.org/).
 
-Para aprender React, confira a [documentação do React](https://reactjs.org/).
+Para aprender mais sobre Node.js, consulte a [documentação do Node.js](https://nodejs.org/).
 
-### Divisão de Código
+### Divisão de Código, Análise do Tamanho do Pacote, Criando um Progressive Web App, Configuração Avançada, Implantação, `npm run build` falha ao minificar
 
-Esta seção foi movida para: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Essas seções foram movidas para as respectivas páginas da documentação do Create React App:
 
-### Análise do Tamanho do Pacote
+- Divisão de Código: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Análise do Tamanho do Pacote: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Criando um Progressive Web App: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Configuração Avançada: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Implantação: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- `npm run build` falha ao minificar: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Esta seção foi movida para: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Criando um Progressive Web App
-
-Esta seção foi movida para: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Configuração Avançada
-
-Esta seção foi movida para: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Implantação
-
-Esta seção foi movida para: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` falha ao minificar
-
-Esta seção foi movida para: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
 
