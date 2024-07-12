@@ -55,9 +55,6 @@ Para executar a API em Node.js:
 
    O servidor começará a ser executado na porta padrão (geralmente 3002).
 
-### Documentação da API
-
-Para aprender mais sobre como utilizar a API, consulte a documentação interna do código ou os arquivos README e doc fornecidos com o projeto.
 
 ## Saiba Mais
 
